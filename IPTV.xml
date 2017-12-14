@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adtree>
+<node refinement="disjunctive"><label>Z</label>
+<node refinement="disjunctive">
+<label>A</label>
+</node>
+<node refinement="disjunctive">
+<label>B</label>
+</node>
+<node refinement="conjunctive">
+<label>C</label>
+<node refinement="conjunctive">
+<label>D</label>
+<node refinement="disjunctive">
+<label>E</label>
+<node refinement="disjunctive">
+<label>F</label>
+</node>
+<node refinement="disjunctive">
+<label>G</label>
+</node>
+</node>
+<node refinement="disjunctive">
+<label>H</label>
+<node refinement="disjunctive">
+<label>I</label>
+</node>
+<node refinement="disjunctive">
+<label>J</label>
+<node refinement="disjunctive">
+<label>K</label>
+</node>
+<node refinement="disjunctive">
+<label>L</label>
+</node>
+</node>
+</node>
+</node>
+<node refinement="conjunctive">
+<label>M</label>
+<node refinement="disjunctive">
+<label>N</label>
+<node refinement="disjunctive">
+<label>O</label>
+</node>
+<node refinement="disjunctive">
+<label>P</label>
+</node>
+</node>
+<node refinement="disjunctive">
+<label>Q</label>
+<node refinement="disjunctive">
+<label>R</label>
+</node>
+<node refinement="disjunctive">
+<label>S</label>
+<node refinement="disjunctive">
+<label>T</label>
+</node>
+<node refinement="disjunctive">
+<label>U</label>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</adtree>

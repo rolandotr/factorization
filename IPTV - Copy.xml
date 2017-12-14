@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adtree>
+<node refinement="disjunctive"><label>A1_card_cardpin In</label>
+<node refinement="disjunctive">
+<label>AT make user Margrethe perform action</label>
+</node>
+<node refinement="disjunctive">
+<label>AT hire more skilled attacker</label>
+</node>
+<node refinement="conjunctive">
+<label>get card cardpin</label>
+<node refinement="conjunctive">
+<label>get cardpin</label>
+<node refinement="disjunctive">
+<label>obtain cardpin</label>
+<node refinement="disjunctive">
+<label>skim card</label>
+</node>
+<node refinement="disjunctive">
+<label>social engineer Margrethe to tell cardpin</label>
+</node>
+</node>
+<node refinement="disjunctive">
+<label>goto home</label>
+<node refinement="disjunctive">
+<label>break in home</label>
+</node>
+<node refinement="disjunctive">
+<label>impersonate somebody trusted by Margrethe</label>
+<node refinement="disjunctive">
+<label>impersonate carer</label>
+</node>
+<node refinement="disjunctive">
+<label>impersonate iptvtech</label>
+</node>
+</node>
+</node>
+</node>
+<node refinement="conjunctive">
+<label>get card</label>
+<node refinement="disjunctive">
+<label>obtain card</label>
+<node refinement="disjunctive">
+<label>skim card</label>
+</node>
+<node refinement="disjunctive">
+<label>steal card from Margrethe</label>
+</node>
+</node>
+<node refinement="disjunctive">
+<label>goto home</label>
+<node refinement="disjunctive">
+<label>break in home</label>
+</node>
+<node refinement="disjunctive">
+<label>impersonate somebody trusted by Margrethe</label>
+<node refinement="disjunctive">
+<label>impersonate iptvtech</label>
+</node>
+<node refinement="disjunctive">
+<label>impersonate carer</label>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</adtree>

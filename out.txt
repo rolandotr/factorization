@@ -1,0 +1,151 @@
+There are 3 elements NODE
+Acquire payment card and access codes
+Steal payment card and access codes
+Get payment card
+Access household
+Impersonate
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+Get card
+Clone card
+Skim
+Acquire skimmer
+Construct
+Buy
+Get access codes
+Learn PIN
+Skim card and PIN
+Acquire skimmer hidden inside portable payment terminal
+Construct
+Buy
+Shoulder-surf
+Phone phishing to learn PIN
+Call cardholder
+Ensure anonymity
+Impersonate in a call
+Make cardholder tell PIN
+Threaten
+Access household
+Impersonate
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+Blackmail
+Soc Eng to learn PIN
+Impersonate to learn PIN
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+Learn PIN code
+Shoulder-surf
+Learn IPTV password
+Observe through window
+Phone phishing to learn IPTV password
+Call cardholder
+Ensure anonymity
+Impersonate to learn password
+Make cardholder tell IPTV password
+Threaten
+Access household
+Impersonate
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+Blackmail
+Soc Eng to learn IPTV password
+Impersonate in a call
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+Learn IPTV password
+Reset Bluetooth pairing and MITM
+Access household
+Impersonate
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+Reset Bluetooth pairing
+Acquire Bluetooth MITM terminal
+Construct
+Buy
+Fake TV remote
+Acquire fake TV remote
+Construct
+Hire
+Substitute TV remote
+Access household and substitute TV remote
+Access household_bis
+Impersonate_bis
+IPTV technician
+Pretext
+Disrupt normal operations workflow
+TV technician
+Pretext
+Disrupt TV operation
+Send TV remote in a package
+The formed expression has 108 literals
+The formed expression has size = 108
+The number of actions is 57
+De-factorizing expression
+The normalized expression has 7270 literals
+The normalized expression has size = 829
+Factorizing expression
+Best found factorized expression has 577 literals
+Best found factorized expression has size = 257
+Best found factorized expression has 575 literals
+Best found factorized expression has size = 257
+Best found factorized expression has 574 literals
+Best found factorized expression has size = 258
+Best found factorized expression has 573 literals
+Best found factorized expression has size = 257
+Best found factorized expression has 572 literals
+Best found factorized expression has size = 258
+Best found factorized expression has 571 literals
+Best found factorized expression has size = 259
+Best found factorized expression has 569 literals
+Best found factorized expression has size = 253
+Best found factorized expression has 568 literals
+Best found factorized expression has size = 254
+Best found factorized expression has 558 literals
+Best found factorized expression has size = 251
+Best found factorized expression has 557 literals
+Best found factorized expression has size = 251
+Best found factorized expression has 553 literals
+Best found factorized expression has size = 252
+Best found factorized expression has 552 literals
+Best found factorized expression has size = 252
+Best found factorized expression has 545 literals
+Best found factorized expression has size = 248
+Best found factorized expression has 544 literals
+Best found factorized expression has size = 249
+Best found factorized expression has 543 literals
+Best found factorized expression has size = 248
+Best found factorized expression has 542 literals
+Best found factorized expression has size = 249
+Best found factorized expression has 541 literals
+Best found factorized expression has size = 249
+Best found factorized expression has 535 literals
+Best found factorized expression has size = 245
+Best found factorized expression has 534 literals
+Best found factorized expression has size = 246
+Best found factorized expression has 533 literals
+Best found factorized expression has size = 244
+Best found factorized expression has 532 literals
+Best found factorized expression has size = 245
+Best found factorized expression has 531 literals
+Best found factorized expression has size = 246
+Best found factorized expression has 530 literals
+Best found factorized expression has size = 243
+Best found factorized expression has 529 literals
+Best found factorized expression has size = 244
+Best found factorized expression has 528 literals
+Best found factorized expression has size = 242
+Best found factorized expression has 527 literals
+Best found factorized expression has size = 243
+Best found factorized expression has 526 literals
+Best found factorized expression has size = 244
+Best found factorized expression has 525 literals
+Best found factorized expression has size = 244
+Best found factorized expression has 524 literals
+Best found factorized expression has size = 245

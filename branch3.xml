@@ -1,0 +1,50 @@
+<node refinement="conjunctive">
+      <label>Social-engineer cardholder to make payment</label>
+      <node refinement="disjunctive">
+        <label>Impersonate</label>
+        <node refinement="disjunctive">
+          <label>IPTV technician</label>
+          <node refinement="conjunctive">
+            <label>Pretext</label>
+            <node refinement="disjunctive">
+              <label>Disrupt normal operations workflow</label>
+              <node refinement="disjunctive">
+                <label>Jam NFC</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">300.0</parameter>
+                <parameter domainId="ProbSucc3">0.65</parameter>
+                <parameter domainId="MinTimeSeq4">250.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Jam Bluetooth</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">300.0</parameter>
+                <parameter domainId="ProbSucc3">0.65</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate technician</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">50.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">500.0</parameter>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Impersonate IPTV technician</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">50.0</parameter>
+            <parameter domainId="ProbSucc3">0.2</parameter>
+            <parameter domainId="MinTimeSeq4">300.0</parameter>
+          </node>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Persuade cardholder to pay</label>
+        <parameter domainId="DiffLMHE1">H</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.05</parameter>
+        <parameter domainId="MinTimeSeq4">900.0</parameter>
+      </node>
+    </node>

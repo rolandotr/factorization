@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><adtree>
+<node refinement="disjunctive">
+      <label>Make cardholder pay</label>
+      <node refinement="conjunctive">
+        <label>Threaten</label>
+        <node refinement="disjunctive">
+          <label>Access household</label>
+          <node refinement="disjunctive">
+            <label>Infiltrate premises</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">100.0</parameter>
+            <parameter domainId="ProbSucc3">0.2</parameter>
+            <parameter domainId="MinTimeSeq4">300.0</parameter>
+          </node>
+          <node refinement="disjunctive">
+            <label>Impersonate</label>
+            <node refinement="disjunctive">
+              <label>IPTV technician</label>
+              <node refinement="conjunctive">
+                <label>Pretext</label>
+                <node refinement="disjunctive">
+                  <label>Disrupt normal operations workflow</label>
+                  <node refinement="disjunctive">
+                    <label>Jam NFC</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">300.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">250.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Jam Bluetooth</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">300.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate technician</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">50.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">500.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate IPTV technician</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">50.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate carer</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.95</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>Threaten cardholder</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.2</parameter>
+          <parameter domainId="MinTimeSeq4">600.0</parameter>
+        </node>
+      </node>
+      <node refinement="conjunctive">
+        <label>Blackmail</label>
+        <node refinement="disjunctive">
+          <label>Collect information</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.95</parameter>
+          <parameter domainId="MinTimeSeq4">60.0</parameter>
+        </node>
+        <node refinement="disjunctive">
+          <label>Blackmail cardholder</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.2</parameter>
+          <parameter domainId="MinTimeSeq4">400000.0</parameter>
+        </node>
+      </node>
+    </node>
+</adtree>

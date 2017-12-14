@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?><adtree>
+  <node refinement="disjunctive">
+    <label>Steal money</label>
+    <node refinement="disjunctive">
+      <label>Acquire payment card and access codes</label>
+      <node refinement="conjunctive">
+        <label>Steal payment card and access codes</label>
+        <node refinement="conjunctive">
+          <label>Get payment card</label>
+          <node refinement="disjunctive">
+            <label>Access household</label>
+            <node refinement="disjunctive">
+              <label>Infiltrate premises</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">100.0</parameter>
+              <parameter domainId="ProbSucc3">0.2</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate</label>
+              <node refinement="disjunctive">
+                <label>IPTV technician</label>
+                <node refinement="conjunctive">
+                  <label>Pretext</label>
+                  <node refinement="disjunctive">
+                    <label>Disrupt normal operations workflow</label>
+                    <node refinement="disjunctive">
+                      <label>Jam NFC</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">300.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">250.0</parameter>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Jam Bluetooth</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">300.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">300.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate technician</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">50.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">500.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate IPTV technician</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">50.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate carer</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.95</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Get card</label>
+            <node refinement="disjunctive">
+              <label>Steal card</label>
+              <parameter domainId="DiffLMHE1">H</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">10800.0</parameter>
+            </node>
+            <node refinement="conjunctive">
+              <label>Clone card</label>
+              <node refinement="conjunctive">
+                <label>Skim</label>
+                <node refinement="disjunctive">
+                  <label>Acquire skimmer</label>
+                  <node refinement="conjunctive">
+                    <label>Construct</label>
+                    <node refinement="disjunctive">
+                      <label>Ability to construct skimmer</label>
+                      <parameter domainId="DiffLMHE1">H</parameter>
+                      <parameter domainId="MinCost2">0.0</parameter>
+                      <parameter domainId="ProbSucc3">0.05</parameter>
+                      <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Buy skimmer parts</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">300.0</parameter>
+                      <parameter domainId="ProbSucc3">0.95</parameter>
+                      <parameter domainId="MinTimeSeq4">300000.0</parameter>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Construct skimmer</label>
+                      <parameter domainId="DiffLMHE1">H</parameter>
+                      <parameter domainId="MinCost2">75.0</parameter>
+                      <parameter domainId="ProbSucc3">0.95</parameter>
+                      <parameter domainId="MinTimeSeq4">43200.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="conjunctive">
+                    <label>Buy</label>
+                    <node refinement="disjunctive">
+                      <label>Find a place to buy skimmer</label>
+                      <parameter domainId="DiffLMHE1">M</parameter>
+                      <parameter domainId="MinCost2">0.0</parameter>
+                      <parameter domainId="ProbSucc3">0.95</parameter>
+                      <parameter domainId="MinTimeSeq4">300000.0</parameter>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Buy skimmer</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">400.0</parameter>
+                      <parameter domainId="ProbSucc3">0.95</parameter>
+                      <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                    </node>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Find card and use skimmer</label>
+                  <parameter domainId="DiffLMHE1">H</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">18000.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Reproduce payment card</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">500.0</parameter>
+                <parameter domainId="ProbSucc3">0.05</parameter>
+                <parameter domainId="MinTimeSeq4">150000.0</parameter>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>Get access codes</label>
+          <node refinement="disjunctive">
+            <label>Learn PIN</label>
+            <node refinement="conjunctive">
+              <label>Skim card and PIN</label>
+              <node refinement="disjunctive">
+                <label>Acquire skimmer hidden inside portable payment terminal</label>
+                <node refinement="conjunctive">
+                  <label>Construct</label>
+                  <node refinement="disjunctive">
+                    <label>Ability to construct a fake payment terminal</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.05</parameter>
+                    <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Buy terminal parts</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">600.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Construct payment terminal with skimmer inside it</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">75.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">30000.0</parameter>
+                  </node>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Buy</label>
+                  <node refinement="disjunctive">
+                    <label>Find a seller of fake payment terminals</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">200000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Buy fake payment terminal</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">1500.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">400000.0</parameter>
+                  </node>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Use fake payment terminal</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">10800.0</parameter>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Shoulder-surf</label>
+              <node refinement="disjunctive">
+                <label>Track cardholder approaching ATM</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.95</parameter>
+                <parameter domainId="MinTimeSeq4">7200.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Learn PIN by observing</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">5.0</parameter>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Phone phishing to learn PIN</label>
+              <node refinement="conjunctive">
+                <label>Call cardholder</label>
+                <node refinement="disjunctive">
+                  <label>Learn cardholder's phone nr</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">50.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Ensure anonymity</label>
+                  <node refinement="disjunctive">
+                    <label>Hide own phone nr</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">30.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Use public phone</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">1.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">30.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Use another person's phone</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">700.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Make a call</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">700.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate in a call</label>
+                <node refinement="disjunctive">
+                  <label>IPTV customer service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">900.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>IPTV helpdesk service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">600.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Ask for PIN during call</label>
+                <parameter domainId="DiffLMHE1">H</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.05</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Make cardholder tell PIN</label>
+              <node refinement="conjunctive">
+                <label>Threaten</label>
+                <node refinement="disjunctive">
+                  <label>Access household</label>
+                  <node refinement="disjunctive">
+                    <label>Infiltrate premises</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">100.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate</label>
+                    <node refinement="disjunctive">
+                      <label>IPTV technician</label>
+                      <node refinement="conjunctive">
+                        <label>Pretext</label>
+                        <node refinement="disjunctive">
+                          <label>Disrupt normal operations workflow</label>
+                          <node refinement="disjunctive">
+                            <label>Jam NFC</label>
+                            <parameter domainId="DiffLMHE1">L</parameter>
+                            <parameter domainId="MinCost2">300.0</parameter>
+                            <parameter domainId="ProbSucc3">0.65</parameter>
+                            <parameter domainId="MinTimeSeq4">250.0</parameter>
+                          </node>
+                          <node refinement="disjunctive">
+                            <label>Jam Bluetooth</label>
+                            <parameter domainId="DiffLMHE1">L</parameter>
+                            <parameter domainId="MinCost2">300.0</parameter>
+                            <parameter domainId="ProbSucc3">0.65</parameter>
+                            <parameter domainId="MinTimeSeq4">300.0</parameter>
+                          </node>
+                        </node>
+                        <node refinement="disjunctive">
+                          <label>Impersonate technician</label>
+                          <parameter domainId="DiffLMHE1">L</parameter>
+                          <parameter domainId="MinCost2">50.0</parameter>
+                          <parameter domainId="ProbSucc3">0.65</parameter>
+                          <parameter domainId="MinTimeSeq4">500.0</parameter>
+                        </node>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Impersonate IPTV technician</label>
+                        <parameter domainId="DiffLMHE1">M</parameter>
+                        <parameter domainId="MinCost2">50.0</parameter>
+                        <parameter domainId="ProbSucc3">0.2</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate carer</label>
+                      <parameter domainId="DiffLMHE1">M</parameter>
+                      <parameter domainId="MinCost2">0.0</parameter>
+                      <parameter domainId="ProbSucc3">0.95</parameter>
+                      <parameter domainId="MinTimeSeq4">300.0</parameter>
+                    </node>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Threaten cardholder</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">600.0</parameter>
+                </node>
+              </node>
+              <node refinement="conjunctive">
+                <label>Blackmail</label>
+                <node refinement="disjunctive">
+                  <label>Collect information</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">60.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Blackmail cardholder</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">400000.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Soc Eng to learn PIN</label>
+              <node refinement="disjunctive">
+                <label>Impersonate to learn PIN</label>
+                <node refinement="disjunctive">
+                  <label>IPTV technician</label>
+                  <node refinement="conjunctive">
+                    <label>Pretext</label>
+                    <node refinement="disjunctive">
+                      <label>Disrupt normal operations workflow</label>
+                      <node refinement="disjunctive">
+                        <label>Jam NFC</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">250.0</parameter>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Jam Bluetooth</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate technician</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">50.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">500.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate IPTV technician</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">50.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>IPTV customer service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">900.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate carer</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Learn PIN code</label>
+                <node refinement="disjunctive">
+                  <label>Ask for PIN</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">500.0</parameter>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Shoulder-surf</label>
+                  <node refinement="disjunctive">
+                    <label>Track cardholder approaching ATM</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">7200.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Learn PIN by observing</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">5.0</parameter>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Learn IPTV password</label>
+            <node refinement="conjunctive">
+              <label>Observe through window</label>
+              <node refinement="disjunctive">
+                <label>Find unobstructed way of sight</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.05</parameter>
+                <parameter domainId="MinTimeSeq4">7200.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Learn password by observing</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.05</parameter>
+                <parameter domainId="MinTimeSeq4">10800.0</parameter>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Phone phishing to learn IPTV password</label>
+              <node refinement="conjunctive">
+                <label>Call cardholder</label>
+                <node refinement="disjunctive">
+                  <label>Learn cardholder's phone nr</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">50.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Ensure anonymity</label>
+                  <node refinement="disjunctive">
+                    <label>Hide own phone nr</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">30.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Use public phone</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">1.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">30.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Use another person's phone</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">700.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Make a call</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">700.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate to learn password</label>
+                <node refinement="disjunctive">
+                  <label>IPTV customer service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">900.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>IPTV helpdesk service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">600.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Ask for IPTV password during call</label>
+                <parameter domainId="DiffLMHE1">H</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Make cardholder tell IPTV password</label>
+              <node refinement="conjunctive">
+                <label>Threaten</label>
+                <node refinement="disjunctive">
+                  <label>Access household</label>
+                  <node refinement="disjunctive">
+                    <label>Infiltrate premises</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">100.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate</label>
+                    <node refinement="disjunctive">
+                      <label>IPTV technician</label>
+                      <node refinement="conjunctive">
+                        <label>Pretext</label>
+                        <node refinement="disjunctive">
+                          <label>Disrupt normal operations workflow</label>
+                          <node refinement="disjunctive">
+                            <label>Jam NFC</label>
+                            <parameter domainId="DiffLMHE1">L</parameter>
+                            <parameter domainId="MinCost2">300.0</parameter>
+                            <parameter domainId="ProbSucc3">0.65</parameter>
+                            <parameter domainId="MinTimeSeq4">250.0</parameter>
+                          </node>
+                          <node refinement="disjunctive">
+                            <label>Jam Bluetooth</label>
+                            <parameter domainId="DiffLMHE1">L</parameter>
+                            <parameter domainId="MinCost2">300.0</parameter>
+                            <parameter domainId="ProbSucc3">0.65</parameter>
+                            <parameter domainId="MinTimeSeq4">300.0</parameter>
+                          </node>
+                        </node>
+                        <node refinement="disjunctive">
+                          <label>Impersonate technician</label>
+                          <parameter domainId="DiffLMHE1">L</parameter>
+                          <parameter domainId="MinCost2">50.0</parameter>
+                          <parameter domainId="ProbSucc3">0.65</parameter>
+                          <parameter domainId="MinTimeSeq4">500.0</parameter>
+                        </node>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Impersonate IPTV technician</label>
+                        <parameter domainId="DiffLMHE1">M</parameter>
+                        <parameter domainId="MinCost2">50.0</parameter>
+                        <parameter domainId="ProbSucc3">0.2</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate carer</label>
+                      <parameter domainId="DiffLMHE1">M</parameter>
+                      <parameter domainId="MinCost2">0.0</parameter>
+                      <parameter domainId="ProbSucc3">0.95</parameter>
+                      <parameter domainId="MinTimeSeq4">300.0</parameter>
+                    </node>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Threaten cardholder</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">600.0</parameter>
+                </node>
+              </node>
+              <node refinement="conjunctive">
+                <label>Blackmail</label>
+                <node refinement="disjunctive">
+                  <label>Collect information</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">60.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Blackmail cardholder</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">400000.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Soc Eng to learn IPTV password</label>
+              <node refinement="disjunctive">
+                <label>Impersonate in a call</label>
+                <node refinement="disjunctive">
+                  <label>IPTV technician</label>
+                  <node refinement="conjunctive">
+                    <label>Pretext</label>
+                    <node refinement="disjunctive">
+                      <label>Disrupt normal operations workflow</label>
+                      <node refinement="disjunctive">
+                        <label>Jam NFC</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">250.0</parameter>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Jam Bluetooth</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate technician</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">50.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">500.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate IPTV technician</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">50.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>IPTV customer service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">900.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>IPTV helpdesk service</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">600.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate carer</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Learn IPTV password</label>
+                <node refinement="disjunctive">
+                  <label>Ask for IPTV password directly</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Shoulder-surf to learn IPTV password</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">250000.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Reset Bluetooth pairing and MITM</label>
+              <node refinement="disjunctive">
+                <label>Access household</label>
+                <node refinement="disjunctive">
+                  <label>Infiltrate premises</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">100.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate</label>
+                  <node refinement="disjunctive">
+                    <label>IPTV technician</label>
+                    <node refinement="conjunctive">
+                      <label>Pretext</label>
+                      <node refinement="disjunctive">
+                        <label>Disrupt normal operations workflow</label>
+                        <node refinement="disjunctive">
+                          <label>Jam NFC</label>
+                          <parameter domainId="DiffLMHE1">L</parameter>
+                          <parameter domainId="MinCost2">300.0</parameter>
+                          <parameter domainId="ProbSucc3">0.65</parameter>
+                          <parameter domainId="MinTimeSeq4">250.0</parameter>
+                        </node>
+                        <node refinement="disjunctive">
+                          <label>Jam Bluetooth</label>
+                          <parameter domainId="DiffLMHE1">L</parameter>
+                          <parameter domainId="MinCost2">300.0</parameter>
+                          <parameter domainId="ProbSucc3">0.65</parameter>
+                          <parameter domainId="MinTimeSeq4">300.0</parameter>
+                        </node>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Impersonate technician</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">50.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">500.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate IPTV technician</label>
+                      <parameter domainId="DiffLMHE1">M</parameter>
+                      <parameter domainId="MinCost2">50.0</parameter>
+                      <parameter domainId="ProbSucc3">0.2</parameter>
+                      <parameter domainId="MinTimeSeq4">300.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate carer</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+              </node>
+              <node refinement="conjunctive">
+                <label>Reset Bluetooth pairing</label>
+                <node refinement="disjunctive">
+                  <label>Reset pairing on TV remote</label>
+                  <parameter domainId="DiffLMHE1">H</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.05</parameter>
+                  <parameter domainId="MinTimeSeq4">20.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Reset pairing on set-top box</label>
+                  <parameter domainId="DiffLMHE1">H</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.05</parameter>
+                  <parameter domainId="MinTimeSeq4">10.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Acquire Bluetooth MITM terminal</label>
+                <node refinement="conjunctive">
+                  <label>Construct</label>
+                  <node refinement="disjunctive">
+                    <label>Ability to construct a Bluetooth MITM terminal</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.05</parameter>
+                    <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Buy Bluetooth terminal parts</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">70.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">172800.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Construct a Bluetooth MITM terminal</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">75.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">30000.0</parameter>
+                  </node>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Buy</label>
+                  <node refinement="disjunctive">
+                    <label>Find a seller of Bluetooth MITM terminals</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">200000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Buy a Bluetooth MITM terminal</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">70.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">300000.0</parameter>
+                  </node>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Snoop IPTV password</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.95</parameter>
+                <parameter domainId="MinTimeSeq4">432000.0</parameter>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Fake TV remote</label>
+              <node refinement="disjunctive">
+                <label>Acquire fake TV remote</label>
+                <node refinement="conjunctive">
+                  <label>Construct</label>
+                  <node refinement="disjunctive">
+                    <label>Ability to construct a fake TV remote</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.05</parameter>
+                    <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Buy TV remote parts</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">150.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Construct a fake TV remote</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">25000.0</parameter>
+                  </node>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Hire</label>
+                  <node refinement="disjunctive">
+                    <label>Find a person</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Hire a person to make a fake TV remote</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">1000.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                  </node>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Substitute TV remote</label>
+                <node refinement="conjunctive">
+                  <label>Access household and substitute TV remote</label>
+                  <node refinement="disjunctive">
+                    <label>Access household_bis</label>
+                    <node refinement="disjunctive">
+                      <label>Infiltrate premises</label>
+                      <parameter domainId="DiffLMHE1">M</parameter>
+                      <parameter domainId="MinCost2">100.0</parameter>
+                      <parameter domainId="ProbSucc3">0.2</parameter>
+                      <parameter domainId="MinTimeSeq4">300.0</parameter>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate_bis</label>
+                      <node refinement="disjunctive">
+                        <label>IPTV technician</label>
+                        <node refinement="conjunctive">
+                          <label>Pretext</label>
+                          <node refinement="disjunctive">
+                            <label>Disrupt normal operations workflow</label>
+                            <node refinement="disjunctive">
+                              <label>Jam NFC</label>
+                              <parameter domainId="DiffLMHE1">L</parameter>
+                              <parameter domainId="MinCost2">300.0</parameter>
+                              <parameter domainId="ProbSucc3">0.65</parameter>
+                              <parameter domainId="MinTimeSeq4">250.0</parameter>
+                            </node>
+                            <node refinement="disjunctive">
+                              <label>Jam Bluetooth</label>
+                              <parameter domainId="DiffLMHE1">L</parameter>
+                              <parameter domainId="MinCost2">300.0</parameter>
+                              <parameter domainId="ProbSucc3">0.65</parameter>
+                              <parameter domainId="MinTimeSeq4">300.0</parameter>
+                            </node>
+                          </node>
+                          <node refinement="disjunctive">
+                            <label>Impersonate technician</label>
+                            <parameter domainId="DiffLMHE1">L</parameter>
+                            <parameter domainId="MinCost2">50.0</parameter>
+                            <parameter domainId="ProbSucc3">0.65</parameter>
+                            <parameter domainId="MinTimeSeq4">500.0</parameter>
+                          </node>
+                        </node>
+                        <node refinement="disjunctive">
+                          <label>Impersonate IPTV technician</label>
+                          <parameter domainId="DiffLMHE1">M</parameter>
+                          <parameter domainId="MinCost2">50.0</parameter>
+                          <parameter domainId="ProbSucc3">0.2</parameter>
+                          <parameter domainId="MinTimeSeq4">300.0</parameter>
+                        </node>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>TV technician</label>
+                        <node refinement="conjunctive">
+                          <label>Pretext</label>
+                          <node refinement="disjunctive">
+                            <label>Disrupt TV operation</label>
+                            <node refinement="disjunctive">
+                              <label>Cut TV cable</label>
+                              <parameter domainId="DiffLMHE1">L</parameter>
+                              <parameter domainId="MinCost2">0.0</parameter>
+                              <parameter domainId="ProbSucc3">0.95</parameter>
+                              <parameter domainId="MinTimeSeq4">150.0</parameter>
+                            </node>
+                          </node>
+                          <node refinement="disjunctive">
+                            <label>Impersonate technician</label>
+                            <parameter domainId="DiffLMHE1">L</parameter>
+                            <parameter domainId="MinCost2">50.0</parameter>
+                            <parameter domainId="ProbSucc3">0.65</parameter>
+                            <parameter domainId="MinTimeSeq4">500.0</parameter>
+                          </node>
+                        </node>
+                        <node refinement="disjunctive">
+                          <label>Impersonate TV technician</label>
+                          <parameter domainId="DiffLMHE1">M</parameter>
+                          <parameter domainId="MinCost2">50.0</parameter>
+                          <parameter domainId="ProbSucc3">0.2</parameter>
+                          <parameter domainId="MinTimeSeq4">500.0</parameter>
+                        </node>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Impersonate carer</label>
+                        <parameter domainId="DiffLMHE1">M</parameter>
+                        <parameter domainId="MinCost2">0.0</parameter>
+                        <parameter domainId="ProbSucc3">0.95</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Substitute TV remote with fake one</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Send TV remote in a package</label>
+                  <node refinement="disjunctive">
+                    <label>Cut TV cable</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">150.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Send TV remote via mail</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">10.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300000.0</parameter>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Become secondary cardholder</label>
+        <parameter domainId="DiffLMHE1">E</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.05</parameter>
+        <parameter domainId="MinTimeSeq4">900000.0</parameter>
+      </node>
+    </node>
+    <node refinement="conjunctive">
+      <label>Attack set-top box from the LAN - Refine subtree</label>
+      <parameter domainId="DiffLMHE1">E</parameter>
+      <parameter domainId="MinCost2">Infinity</parameter>
+      <parameter domainId="ProbSucc3">0.0</parameter>
+      <parameter domainId="MinTimeSeq4">Infinity</parameter>
+    </node>
+    <node refinement="disjunctive">
+      <label>Make cardholder pay</label>
+      <node refinement="conjunctive">
+        <label>Threaten</label>
+        <node refinement="disjunctive">
+          <label>Access household</label>
+          <node refinement="disjunctive">
+            <label>Infiltrate premises</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">100.0</parameter>
+            <parameter domainId="ProbSucc3">0.2</parameter>
+            <parameter domainId="MinTimeSeq4">300.0</parameter>
+          </node>
+          <node refinement="disjunctive">
+            <label>Impersonate</label>
+            <node refinement="disjunctive">
+              <label>IPTV technician</label>
+              <node refinement="conjunctive">
+                <label>Pretext</label>
+                <node refinement="disjunctive">
+                  <label>Disrupt normal operations workflow</label>
+                  <node refinement="disjunctive">
+                    <label>Jam NFC</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">300.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">250.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Jam Bluetooth</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">300.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate technician</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">50.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">500.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate IPTV technician</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">50.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate carer</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.95</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>Threaten cardholder</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.2</parameter>
+          <parameter domainId="MinTimeSeq4">600.0</parameter>
+        </node>
+      </node>
+      <node refinement="conjunctive">
+        <label>Blackmail</label>
+        <node refinement="disjunctive">
+          <label>Collect information</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.95</parameter>
+          <parameter domainId="MinTimeSeq4">60.0</parameter>
+        </node>
+        <node refinement="disjunctive">
+          <label>Blackmail cardholder</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.2</parameter>
+          <parameter domainId="MinTimeSeq4">400000.0</parameter>
+        </node>
+      </node>
+    </node>
+    <node refinement="conjunctive">
+      <label>Social-engineer cardholder to make payment</label>
+      <node refinement="disjunctive">
+        <label>Impersonate</label>
+        <node refinement="disjunctive">
+          <label>IPTV technician</label>
+          <node refinement="conjunctive">
+            <label>Pretext</label>
+            <node refinement="disjunctive">
+              <label>Disrupt normal operations workflow</label>
+              <node refinement="disjunctive">
+                <label>Jam NFC</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">300.0</parameter>
+                <parameter domainId="ProbSucc3">0.65</parameter>
+                <parameter domainId="MinTimeSeq4">250.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Jam Bluetooth</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">300.0</parameter>
+                <parameter domainId="ProbSucc3">0.65</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate technician</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">50.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">500.0</parameter>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Impersonate IPTV technician</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">50.0</parameter>
+            <parameter domainId="ProbSucc3">0.2</parameter>
+            <parameter domainId="MinTimeSeq4">300.0</parameter>
+          </node>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Persuade cardholder to pay</label>
+        <parameter domainId="DiffLMHE1">H</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.05</parameter>
+        <parameter domainId="MinTimeSeq4">900.0</parameter>
+      </node>
+    </node>
+    <node refinement="conjunctive">
+      <label>Tamper payment data</label>
+      <node refinement="conjunctive">
+        <label>Infect set-top box with malware</label>
+        <node refinement="disjunctive">
+          <label>Acquire malware</label>
+          <node refinement="disjunctive">
+            <label>Create</label>
+            <node refinement="conjunctive">
+              <label>Attacker creates</label>
+              <node refinement="disjunctive">
+                <label>Ability to create malware</label>
+                <parameter domainId="DiffLMHE1">E</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.05</parameter>
+                <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Create malware</label>
+                <parameter domainId="DiffLMHE1">E</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.95</parameter>
+                <parameter domainId="MinTimeSeq4">500000.0</parameter>
+              </node>
+            </node>
+            <node refinement="conjunctive">
+              <label>Developer creates</label>
+              <node refinement="disjunctive">
+                <label>Find a developer</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.05</parameter>
+                <parameter domainId="MinTimeSeq4">432000.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Bribe a developer</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">1000.0</parameter>
+                <parameter domainId="ProbSucc3">0.65</parameter>
+                <parameter domainId="MinTimeSeq4">200000.0</parameter>
+              </node>
+            </node>
+          </node>
+          <node refinement="conjunctive">
+            <label>Buy</label>
+            <node refinement="disjunctive">
+              <label>Find a malware seller</label>
+              <parameter domainId="DiffLMHE1">H</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.05</parameter>
+              <parameter domainId="MinTimeSeq4">432000.0</parameter>
+            </node>
+            <node refinement="disjunctive">
+              <label>Buy malware</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">400.0</parameter>
+              <parameter domainId="ProbSucc3">0.95</parameter>
+              <parameter domainId="MinTimeSeq4">350000.0</parameter>
+            </node>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>Access household</label>
+          <node refinement="disjunctive">
+            <label>Infiltrate premises</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">100.0</parameter>
+            <parameter domainId="ProbSucc3">0.2</parameter>
+            <parameter domainId="MinTimeSeq4">300.0</parameter>
+          </node>
+          <node refinement="disjunctive">
+            <label>Impersonate</label>
+            <node refinement="disjunctive">
+              <label>IPTV technician</label>
+              <node refinement="conjunctive">
+                <label>Pretext</label>
+                <node refinement="disjunctive">
+                  <label>Disrupt normal operations workflow</label>
+                  <node refinement="disjunctive">
+                    <label>Jam NFC</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">300.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">250.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Jam Bluetooth</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">300.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate technician</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">50.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">500.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate IPTV technician</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">50.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate carer</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.95</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+          </node>
+        </node>
+        <node refinement="disjunctive">
+          <label>Infect with malware</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">0.0</parameter>
+          <parameter domainId="ProbSucc3">0.65</parameter>
+          <parameter domainId="MinTimeSeq4">200.0</parameter>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Tamper data</label>
+        <parameter domainId="DiffLMHE1">L</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.95</parameter>
+        <parameter domainId="MinTimeSeq4">400000.0</parameter>
+      </node>
+    </node>
+    <node refinement="conjunctive">
+      <label>Fake information that cardholder sees on TV</label>
+      <node refinement="disjunctive">
+        <label>Acquire fake presentation layer</label>
+        <node refinement="disjunctive">
+          <label>Create</label>
+          <node refinement="conjunctive">
+            <label>Attacker creates</label>
+            <node refinement="disjunctive">
+              <label>Ability to create a fake presentation layer</label>
+              <parameter domainId="DiffLMHE1">E</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.95</parameter>
+              <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+            </node>
+            <node refinement="disjunctive">
+              <label>Create IPTV presentation layer</label>
+              <parameter domainId="DiffLMHE1">H</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">200000.0</parameter>
+            </node>
+          </node>
+          <node refinement="conjunctive">
+            <label>Developer creates</label>
+            <node refinement="disjunctive">
+              <label>Find a developer to create fake presentation layer</label>
+              <parameter domainId="DiffLMHE1">H</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">300000.0</parameter>
+            </node>
+            <node refinement="disjunctive">
+              <label>Bribe the developer</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">2000.0</parameter>
+              <parameter domainId="ProbSucc3">0.2</parameter>
+              <parameter domainId="MinTimeSeq4">800000.0</parameter>
+            </node>
+          </node>
+        </node>
+        <node refinement="conjunctive">
+          <label>Buy</label>
+          <node refinement="disjunctive">
+            <label>Find seller</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">0.0</parameter>
+            <parameter domainId="ProbSucc3">0.05</parameter>
+            <parameter domainId="MinTimeSeq4">300000.0</parameter>
+          </node>
+          <node refinement="disjunctive">
+            <label>Buy fake presentation layer</label>
+            <parameter domainId="DiffLMHE1">L</parameter>
+            <parameter domainId="MinCost2">3000.0</parameter>
+            <parameter domainId="ProbSucc3">0.95</parameter>
+            <parameter domainId="MinTimeSeq4">250000.0</parameter>
+          </node>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Access household</label>
+        <node refinement="disjunctive">
+          <label>Infiltrate premises</label>
+          <parameter domainId="DiffLMHE1">M</parameter>
+          <parameter domainId="MinCost2">100.0</parameter>
+          <parameter domainId="ProbSucc3">0.2</parameter>
+          <parameter domainId="MinTimeSeq4">300.0</parameter>
+        </node>
+        <node refinement="disjunctive">
+          <label>Impersonate</label>
+          <node refinement="disjunctive">
+            <label>IPTV technician</label>
+            <node refinement="conjunctive">
+              <label>Pretext</label>
+              <node refinement="disjunctive">
+                <label>Disrupt normal operations workflow</label>
+                <node refinement="disjunctive">
+                  <label>Jam NFC</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">300.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">250.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Jam Bluetooth</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">300.0</parameter>
+                  <parameter domainId="ProbSucc3">0.65</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate technician</label>
+                <parameter domainId="DiffLMHE1">L</parameter>
+                <parameter domainId="MinCost2">50.0</parameter>
+                <parameter domainId="ProbSucc3">0.65</parameter>
+                <parameter domainId="MinTimeSeq4">500.0</parameter>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate IPTV technician</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">50.0</parameter>
+              <parameter domainId="ProbSucc3">0.2</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Impersonate carer</label>
+            <parameter domainId="DiffLMHE1">M</parameter>
+            <parameter domainId="MinCost2">0.0</parameter>
+            <parameter domainId="ProbSucc3">0.95</parameter>
+            <parameter domainId="MinTimeSeq4">300.0</parameter>
+          </node>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Install fake presentation layer into set-top box</label>
+        <parameter domainId="DiffLMHE1">L</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.95</parameter>
+        <parameter domainId="MinTimeSeq4">900.0</parameter>
+      </node>
+    </node>
+    <node refinement="conjunctive">
+      <label>Fake set-top box</label>
+      <node refinement="conjunctive">
+        <label>Get set-top box with required features</label>
+        <node refinement="disjunctive">
+          <label>Buy new set-top box</label>
+          <parameter domainId="DiffLMHE1">L</parameter>
+          <parameter domainId="MinCost2">400.0</parameter>
+          <parameter domainId="ProbSucc3">0.95</parameter>
+          <parameter domainId="MinTimeSeq4">250000.0</parameter>
+        </node>
+        <node refinement="disjunctive">
+          <label>Add features</label>
+          <node refinement="conjunctive">
+            <label>Malware</label>
+            <node refinement="disjunctive">
+              <label>Acquire malware</label>
+              <node refinement="disjunctive">
+                <label>Create</label>
+                <node refinement="conjunctive">
+                  <label>Attacker creates</label>
+                  <node refinement="disjunctive">
+                    <label>Ability to create malware</label>
+                    <parameter domainId="DiffLMHE1">E</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.05</parameter>
+                    <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Create malware</label>
+                    <parameter domainId="DiffLMHE1">E</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">500000.0</parameter>
+                  </node>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Developer creates</label>
+                  <node refinement="disjunctive">
+                    <label>Find a developer</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.05</parameter>
+                    <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Bribe a developer</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">1000.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">200000.0</parameter>
+                  </node>
+                </node>
+              </node>
+              <node refinement="conjunctive">
+                <label>Buy</label>
+                <node refinement="disjunctive">
+                  <label>Find a malware seller</label>
+                  <parameter domainId="DiffLMHE1">H</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.05</parameter>
+                  <parameter domainId="MinTimeSeq4">432000.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Buy malware</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">400.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">350000.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Access household</label>
+              <node refinement="disjunctive">
+                <label>Infiltrate premises</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">100.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate</label>
+                <node refinement="disjunctive">
+                  <label>IPTV technician</label>
+                  <node refinement="conjunctive">
+                    <label>Pretext</label>
+                    <node refinement="disjunctive">
+                      <label>Disrupt normal operations workflow</label>
+                      <node refinement="disjunctive">
+                        <label>Jam NFC</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">250.0</parameter>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Jam Bluetooth</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate technician</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">50.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">500.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate IPTV technician</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">50.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate carer</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Infect with malware</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">200.0</parameter>
+            </node>
+          </node>
+          <node refinement="conjunctive">
+            <label>Extra presentation layer</label>
+            <node refinement="disjunctive">
+              <label>Acquire fake presentation layer</label>
+              <node refinement="disjunctive">
+                <label>Create</label>
+                <node refinement="conjunctive">
+                  <label>Attacker creates</label>
+                  <node refinement="disjunctive">
+                    <label>Ability to create a fake presentation layer</label>
+                    <parameter domainId="DiffLMHE1">E</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.95</parameter>
+                    <parameter domainId="MinTimeSeq4">8640000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Create IPTV presentation layer</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">200000.0</parameter>
+                  </node>
+                </node>
+                <node refinement="conjunctive">
+                  <label>Developer creates</label>
+                  <node refinement="disjunctive">
+                    <label>Find a developer to create fake presentation layer</label>
+                    <parameter domainId="DiffLMHE1">H</parameter>
+                    <parameter domainId="MinCost2">0.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">300000.0</parameter>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Bribe the developer</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">2000.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">800000.0</parameter>
+                  </node>
+                </node>
+              </node>
+              <node refinement="conjunctive">
+                <label>Buy</label>
+                <node refinement="disjunctive">
+                  <label>Find seller</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.05</parameter>
+                  <parameter domainId="MinTimeSeq4">300000.0</parameter>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Buy fake presentation layer</label>
+                  <parameter domainId="DiffLMHE1">L</parameter>
+                  <parameter domainId="MinCost2">3000.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">250000.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Access household</label>
+              <node refinement="disjunctive">
+                <label>Infiltrate premises</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">100.0</parameter>
+                <parameter domainId="ProbSucc3">0.2</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate</label>
+                <node refinement="disjunctive">
+                  <label>IPTV technician</label>
+                  <node refinement="conjunctive">
+                    <label>Pretext</label>
+                    <node refinement="disjunctive">
+                      <label>Disrupt normal operations workflow</label>
+                      <node refinement="disjunctive">
+                        <label>Jam NFC</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">250.0</parameter>
+                      </node>
+                      <node refinement="disjunctive">
+                        <label>Jam Bluetooth</label>
+                        <parameter domainId="DiffLMHE1">L</parameter>
+                        <parameter domainId="MinCost2">300.0</parameter>
+                        <parameter domainId="ProbSucc3">0.65</parameter>
+                        <parameter domainId="MinTimeSeq4">300.0</parameter>
+                      </node>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Impersonate technician</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">50.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">500.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate IPTV technician</label>
+                    <parameter domainId="DiffLMHE1">M</parameter>
+                    <parameter domainId="MinCost2">50.0</parameter>
+                    <parameter domainId="ProbSucc3">0.2</parameter>
+                    <parameter domainId="MinTimeSeq4">300.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate carer</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">0.0</parameter>
+                  <parameter domainId="ProbSucc3">0.95</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+            </node>
+            <node refinement="disjunctive">
+              <label>Install fake presentation layer into set-top box</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">0.0</parameter>
+              <parameter domainId="ProbSucc3">0.95</parameter>
+              <parameter domainId="MinTimeSeq4">900.0</parameter>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node refinement="disjunctive">
+        <label>Substitute set-top box</label>
+        <node refinement="conjunctive">
+          <label>Attacker substitutes</label>
+          <node refinement="disjunctive">
+            <label>Access household</label>
+            <node refinement="disjunctive">
+              <label>Infiltrate premises</label>
+              <parameter domainId="DiffLMHE1">M</parameter>
+              <parameter domainId="MinCost2">100.0</parameter>
+              <parameter domainId="ProbSucc3">0.2</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+            <node refinement="disjunctive">
+              <label>Impersonate</label>
+              <node refinement="disjunctive">
+                <label>IPTV technician</label>
+                <node refinement="conjunctive">
+                  <label>Pretext</label>
+                  <node refinement="disjunctive">
+                    <label>Disrupt normal operations workflow</label>
+                    <node refinement="disjunctive">
+                      <label>Jam NFC</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">300.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">250.0</parameter>
+                    </node>
+                    <node refinement="disjunctive">
+                      <label>Jam Bluetooth</label>
+                      <parameter domainId="DiffLMHE1">L</parameter>
+                      <parameter domainId="MinCost2">300.0</parameter>
+                      <parameter domainId="ProbSucc3">0.65</parameter>
+                      <parameter domainId="MinTimeSeq4">300.0</parameter>
+                    </node>
+                  </node>
+                  <node refinement="disjunctive">
+                    <label>Impersonate technician</label>
+                    <parameter domainId="DiffLMHE1">L</parameter>
+                    <parameter domainId="MinCost2">50.0</parameter>
+                    <parameter domainId="ProbSucc3">0.65</parameter>
+                    <parameter domainId="MinTimeSeq4">500.0</parameter>
+                  </node>
+                </node>
+                <node refinement="disjunctive">
+                  <label>Impersonate IPTV technician</label>
+                  <parameter domainId="DiffLMHE1">M</parameter>
+                  <parameter domainId="MinCost2">50.0</parameter>
+                  <parameter domainId="ProbSucc3">0.2</parameter>
+                  <parameter domainId="MinTimeSeq4">300.0</parameter>
+                </node>
+              </node>
+              <node refinement="disjunctive">
+                <label>Impersonate carer</label>
+                <parameter domainId="DiffLMHE1">M</parameter>
+                <parameter domainId="MinCost2">0.0</parameter>
+                <parameter domainId="ProbSucc3">0.95</parameter>
+                <parameter domainId="MinTimeSeq4">300.0</parameter>
+              </node>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Substitute original set-top box with fake replication</label>
+            <parameter domainId="DiffLMHE1">L</parameter>
+            <parameter domainId="MinCost2">0.0</parameter>
+            <parameter domainId="ProbSucc3">0.95</parameter>
+            <parameter domainId="MinTimeSeq4">2500.0</parameter>
+          </node>
+        </node>
+        <node refinement="conjunctive">
+          <label>Cardholder substitutes</label>
+          <node refinement="disjunctive">
+            <label>Disrupt set-top box operation</label>
+            <node refinement="disjunctive">
+              <label>Jam NFC</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">300.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">250.0</parameter>
+            </node>
+            <node refinement="disjunctive">
+              <label>Jam Bluetooth</label>
+              <parameter domainId="DiffLMHE1">L</parameter>
+              <parameter domainId="MinCost2">300.0</parameter>
+              <parameter domainId="ProbSucc3">0.65</parameter>
+              <parameter domainId="MinTimeSeq4">300.0</parameter>
+            </node>
+          </node>
+          <node refinement="disjunctive">
+            <label>Send a malicious set-top box in a package</label>
+            <parameter domainId="DiffLMHE1">L</parameter>
+            <parameter domainId="MinCost2">10.0</parameter>
+            <parameter domainId="ProbSucc3">0.65</parameter>
+            <parameter domainId="MinTimeSeq4">250000.0</parameter>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node refinement="conjunctive">
+      <label>Intercept connection between set-top box and payment provider</label>
+      <node refinement="disjunctive">
+        <label>Root set-top box</label>
+        <parameter domainId="DiffLMHE1">H</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.05</parameter>
+        <parameter domainId="MinTimeSeq4">172800.0</parameter>
+      </node>
+      <node refinement="disjunctive">
+        <label>Tamper data by using normally unused API functions</label>
+        <parameter domainId="DiffLMHE1">H</parameter>
+        <parameter domainId="MinCost2">0.0</parameter>
+        <parameter domainId="ProbSucc3">0.2</parameter>
+        <parameter domainId="MinTimeSeq4">300000.0</parameter>
+      </node>
+    </node>
+  </node>
+  <domain id="DiffLMHE1">
+    <class>lu.uni.adtool.domains.predefined.DiffLMHE</class>
+    <tool>ADTool</tool>
+  </domain>
+  <domain id="MinCost2">
+    <class>lu.uni.adtool.domains.predefined.MinCost</class>
+    <tool>ADTool</tool>
+  </domain>
+  <domain id="ProbSucc3">
+    <class>lu.uni.adtool.domains.predefined.ProbSucc</class>
+    <tool>ADTool</tool>
+  </domain>
+  <domain id="MinTimeSeq4">
+    <class>lu.uni.adtool.domains.predefined.MinTimeSeq</class>
+    <tool>ADTool</tool>
+  </domain>
+</adtree>

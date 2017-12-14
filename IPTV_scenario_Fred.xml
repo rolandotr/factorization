@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adtree>
+<node refinement="disjunctive">
+<label>Attacker Fred</label>
+<node refinement="conjunctive">
+<label>violate policy at A1</label>
+<node refinement="conjunctive">
+<label>get credentials</label>
+<node refinement="disjunctive">
+<label>get pin id x009</label>
+<node refinement="conjunctive">
+<label>goto actor Margrethe get x009</label>
+<node refinement="conjunctive">
+<label>Fred Goto home</label>
+</node><node refinement="disjunctive">
+<label>Fred In data x009 actor Margrethe Margrethe</label>
+</node></node><node refinement="conjunctive">
+<label>get pin from item card id x004</label>
+<node refinement="disjunctive">
+<label>get card id x004</label>
+<node refinement="conjunctive">
+<label>goto actor Margrethe get x004</label>
+<node refinement="conjunctive">
+<label>Fred Goto home</label>
+</node><node refinement="disjunctive">
+<label>Fred In item x004 actor Margrethe Margrethe</label>
+</node></node></node><node refinement="disjunctive">
+<label>Fred In data x009 item card x004</label>
+</node></node></node><node refinement="disjunctive">
+<label>get card id x004</label>
+<node refinement="conjunctive">
+<label>goto actor Margrethe get x004</label>
+<node refinement="conjunctive">
+<label>Fred Goto home</label>
+</node><node refinement="disjunctive">
+<label>Fred In item x004 actor Margrethe Margrethe</label>
+</node></node></node></node><node refinement="conjunctive">
+<label>goto location A1 get x001</label>
+<node refinement="conjunctive">
+<label>Fred Goto A1</label>
+</node><node refinement="disjunctive">
+<label>Fred In item x001 location A1 A1</label>
+</node></node></node></node></adtree>
